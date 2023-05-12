@@ -1,0 +1,10 @@
+button {
+    width: 30px;
+    margin-left: 3.5px;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+table{
+    background-color: gainsboro;
+    border: 1px solid black;
+}

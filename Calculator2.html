@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="Calculator2.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tỉnh bỏ túi</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4" ><input type="text" id="value"></td>
+        </tr>
+        <tr>
+            <td> <button type="button" value="1" onclick="inputValue(value)">1</button></td>
+            <td> <button type="button" value="2" onclick="inputValue(value)">2</button></td>
+            <td> <button type="button" value="3" onclick="inputValue(value)">3</button></td>
+            <td> <button type="button" value="+" onclick="inputValue(value)">+</button></td>
+        </tr>
+        <tr>
+            <td> <button type="button" value="4" onclick="inputValue(value)">4</button></td>
+            <td> <button type="button" value="5" onclick="inputValue(value)">5</button></td>
+            <td> <button type="button" value="6" onclick="inputValue(value)">6</button></td>
+            <td> <button type="button" value="-" onclick="inputValue(value)">-</button></td>
+        </tr>
+        <tr>
+            <td> <button type="button" value="7" onclick="inputValue(value)">7</button></td>
+            <td> <button type="button" value="8" onclick="inputValue(value)">8</button></td>
+            <td> <button type="button" value="9" onclick="inputValue(value)">9</button></td>
+            <td> <button type="button" value="*" onclick="inputValue(value)">*</button></td>
+        </tr>
+        <tr>
+            <td> <button type="button" onclick="erase()">C</button></td>
+            <td> <button type="button" value="0" onclick="inputValue(value)">0</button></td>
+            <td> <button type="button" onclick="kq()">=</button></td>
+            <td> <button type="button" value="/" onclick="inputValue(value)">/</button></td>
+        </tr>
+    </table>
+</body>
+</html>
+<script src="Calculator2.js"></script>
